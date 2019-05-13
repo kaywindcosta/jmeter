@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1557780473097,2199,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,text,false,,2225,0,10,10,0,0,2199
+1557780473207,2091,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,text,false,,2225,0,10,10,0,0,2088
+1557780473097,2229,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,text,false,,2225,0,10,10,0,0,2229
+1557780473302,2093,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,text,false,,2225,0,10,10,0,0,2093
+1557780473459,2106,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,text,false,,2225,0,10,10,0,0,2105
+1557780473567,2030,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,text,false,,2225,0,10,10,0,0,2029
+1557780473702,1998,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,text,false,,2225,0,10,10,0,0,1998
+1557780473794,2006,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,text,false,,2225,0,10,10,0,0,2006
+1557780473898,2001,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,text,false,,2225,0,10,10,0,0,2001
+1557780473998,2103,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,text,false,,2225,0,10,10,0,0,2102
+1557780475299,2005,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,text,false,,2225,0,10,10,0,0,2005
+1557780475299,2005,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,text,false,,2225,0,10,10,0,0,2005
+1557780475326,1998,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,text,false,,2225,0,8,8,0,0,1998
+1557780475403,2001,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,text,false,,2225,0,7,7,0,0,2001
+1557780475566,1996,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,text,false,,2225,0,6,6,0,0,1996
+1557780475597,2035,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,text,false,,2225,0,5,5,0,0,2035
+1557780475700,2012,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,text,false,,2225,0,4,4,0,0,2012
+1557780475801,2001,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,text,false,,2225,0,3,3,0,0,2001
+1557780475900,2002,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,text,false,,2225,0,2,2,0,0,2002
+1557780476101,2011,HTTP Request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,text,false,,2225,0,1,1,0,0,2011
