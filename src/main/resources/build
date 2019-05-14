@@ -1,0 +1,22 @@
+stage('Parent Upload') {
+			
+		
+			steps {
+				echo 'Building app...'
+				script{
+					//def artifactory_server = Artifactory.server "Artifactory"
+					//def buildInfo = Artifactory.newBuildInfo()
+					buildInfo.env.capture = true
+					def rtMaven = Artifactory.newMavenBuild();
+					rtMaven.tool = "maven"
+					
+					//  rtMaven.deployer releaseRepo:'libs-release-local', snapshotRepo:'libs-snapshot-local', server: artifactory_server
+					//  rtMaven.resolver releaseRepo:'libs-release', snapshotRepo:'libs-snapshot', server: artifactory_server
+
+					  rtMaven.run pom: 'jmeter/pom.xml', goals: 'clean install'
+					  //, buildInfo: buildInfo
+					 // artifactory_server.publishBuildInfo buildInfo
+				}
+			
+			}
+		}
